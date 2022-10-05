@@ -1,0 +1,48 @@
+1.)Given a class named Patient, identify what instance methods could be written in this class.
+
+public class Patient(){
+
+	public patientDiease{}
+	public patientReports{}
+	public patientNames{}
+	public patientAge{}
+
+
+}
+
+
+2.)Given a class named CPU, identify the public & private instance members
+
+public CPU(){
+
+	public ports;
+	public CDdrive;
+	private memory;
+	private ram;
+	private chip;
+}
+
+3.) Given a class named Media, assume there are 3 objects of this class. Identify the static members of this class. 
+
+STATIC MEMBERS:
+* Print is the static member because we cannot change data which is printed on paper
+
+4.) Given a class named Calculator & its derived classes named Standard and Scientific, identify the method which can be overridden by the derived classes. 
+     
+class Calculater{
+	void add(){
+		int a=3;
+		int b=3;
+		c=a+b;
+		System.out.println(c);
+	class Standard{void add()}
+	class Scientific{void add()}
+
+}
+Calculater calc=new Calculater();
+calc.add();
+The methods which are overridden, add(),sub(),divide(),mul()...
+
+5.) Given the classes Bird, Superman, Aeroplane and Missile, identify the usage of interfaces here. 
+For bird and superman the interface is flight 
+For aeroplane and missile the interface is fuel.

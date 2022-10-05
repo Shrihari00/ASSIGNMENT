@@ -1,0 +1,70 @@
+ASSIGNMENT-2
+
+1.)Given an entity named Television, identify its attributes and explain how will you do Abstraction? 
+ATTRIBUTES:
+	*SPEAKERS
+	*CATHOD RAY TUBE
+	*CIRCUIT BOARD
+	*ACCESS BUTTONS
+	*ANTENNA
+	*REMOTE CONTROL
+Among these attributes SPEAKERS,CATHOD RAY TUBE,CIRCUIT BOARD are abstracted means hidden from user.
+
+
+
+2.)Given an entity named Hospital, explain Encapsulation with respect to it. 
+ATTRIBUTES:
+	*PATIENTS
+	*VISITORS
+	*STAFF
+	  >DOCTORS
+	  >NURSES
+	  >WARD BOYS
+	  >RECEPTIONIST
+	*MANAGEMENT
+	*PHARMACY
+All of these are of different background but are encapsulated in single unit Hospital.
+But some like visitors are restricted to some places inside hospital like ,ICU,where only doctors and nurses are allowed
+
+3.) Given an entity named TrafficSignal, explain Polymorphism with respect to it. 
+ATTRIBUTES:
+	*RED SIGNAL
+	*YELLOW SIGNAL
+	*GREEN SIGNAL
+
+Traffic signal is a single component, but changes its form to three different state i.e red, yellow and green.
+Hence,it achives polymorphism.
+
+
+
+4.)Given an entity named BroadBandConnection, explain inheritance with respect to it.
+
+We access the internet from ISP i.e Internet Service Provider ,and then we distribute the internet by means of wired and wireless connection.
+First we inherit the internet from the ISP and then other devices inherit the internet from the broadband connection.By this way Inheritance is achived.
+
+
+5.)Given an entity named MobilePhone, identify its static & dynamic attributes.  
+Static:
+Attributes:
+*Mobile screen
+*Ports
+*Speakers
+*Power and volume buttons
+*SIM slot allotment
+*Camera
+*Battery
+
+Dynamic:
+Attributes:
+*OS(softwares)
+*RAM
+*Applications
+*Secondary Storage
+
+
+
+
+
+
+
+

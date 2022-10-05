@@ -1,0 +1,124 @@
+1.)
+//voting eligibility criteria;
+algorithm:
+step1:start
+step2:Initialize variable age
+step3:take input from user
+step4:check if age>=18
+step5:print eligibility
+step6:else,not eligible.
+
+pseudocode:
+begin
+input age
+if age>=18
+	display "eligible"
+else
+	display "not eligible"
+end
+
+2.)
+//prime number
+algorithm:
+step1:start
+step2:Input number from user
+step3:read number
+step4:If number<=1 else step6
+step5:display "it is not a prime"
+step6:for i in range(2,num)
+step7:if num%i==0
+step8:Display "it is not prime" goto step9
+step9:Display "it is prime"
+step10"end
+
+pseudocode:
+begin
+number num1,i=0,flag=0
+input num1
+if num1==0 ||num1==1
+	begin
+	  flag=1
+	end
+for i=2 to i<=(num1)/2;i++
+	begin
+	 if num1%i==0
+	   begin
+		flag=0
+	   end
+	end
+if flag==0
+ print "prime"
+else
+ print "not prime"
+end
+
+3.)
+//reverse a number
+algorithm:
+step1:start
+step2:initialize num,rev
+step3:input num
+step4:loop(len(num))calculate mod of num with 10
+step5:store value in rev=(rem*10)+rem
+step6:divide num with 10 store in num
+step7: return rev
+step8:end
+
+pseudocode:
+begin
+rev=0 rem=0
+input num
+while num>1
+	rem=num%10
+	rev=(num*10)+rem
+	num=num/10
+print "rev"
+end
+
+
+4.)
+//factorial number
+algorithm:
+step1:start
+step2:input num
+step3:call function f
+step4:in function f return 1 if n is 1 or n is 0 else return n*f(n-1)
+step5 display "factorial of number"
+step6: end
+
+pseudocode:
+begin
+input num
+function f(num)
+return 1 if(n==0 ||n==1)else return n*(n-1)
+print f(num)
+end
+
+	
+
+5.)vowels
+algorithm:
+step1:start
+step2:initialize string str=CITIUSTECH
+step3:set count=0
+step4:convert string to lowercase str=str.toLowerCase();
+step5:for(int i=0;i<str.length();i++)
+step6:if condition within loop to check vowels in string
+step7:if(str.CharAt(i)=="a"||str.CharAt(i).charAt(i)=="e"||str.charAt()=="i"||str.charAt(i)=="o"||str.charAt(i)=="u")
+step8:count++
+step9:print the count
+step10:end
+
+pseudocode:
+set count=0
+initialize string str=CITIUSTECH
+convert string to lowercase str.str.ToLowerCase();
+for(int i=0;i<str.length();i++)
+Begin
+if(str.charAt(i)=='a'||str.charAt(i)=='e||str.charAt(i)=='i'||str.charAt(i)=='o'||str.charAt(i)=='u')
+count ++
+print count
+End
+
+
+
