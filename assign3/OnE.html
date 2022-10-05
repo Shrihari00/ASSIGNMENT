@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASS1</title>
+</head>
+<script>
+    function login() {
+
+
+        var name = document.getElementById('T').value
+        var pass = document.getElementById('P').value
+        var err = document.getElementById('E')
+        if (name === 'CITIUSTECH'||'citiustech' && pass === 'CITIUSTECH'||'citiustech') {
+            window.open('https://www.google.com/',' ','menubar=no , addressbar=no','_blank');
+        }
+        else {
+            err.innerHTML='invalid credentials password and username'
+        }
+
+    }
+</script>
+<body>
+    USERNAME:<input type="text" id="T" placeholder="username"><br><br>
+    PASSWORD:<input type="password" id="P" placeholder="password" required><br><br>
+    <button onclick="login() ">signIn</button>
+    <h3 id="E"  style="color: red;"></h3>
+</body>
+    
+
+</html>
