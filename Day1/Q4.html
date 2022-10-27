@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
+</head>
+<style>
+    .err {
+        border: solid red;
+        background-color: yellow;
+
+    }
+</style>
+
+<body>
+    <input type="text" id="txt">
+    <script>
+        $(document).ready(function () {
+            $('#txt').focus(function () {
+                $('#txt').focusout(function () {
+                    $(this).addClass('err')
+                })
+
+            })
+       
+        if ($('#txt').val().length()>10) {
+            $(this).addClass('err')
+        }
+    })
+
+
+        
+
+
+
+    </script>
+
+</body>
+
+</html>
