@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
+    <style>
+        .border{
+            border: solid red;
+        }
+        .style{
+            color: blue;
+            background-color: aquamarine;
+            border: solid black;
+            margin-right: 75%;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <input type="text">
+    <input type="text">
+    <textarea></textarea>
+    <textarea></textarea><br>
+     <button id="btn1">ApplyStyle</button><br>
+     <button id="btn2">ApplyStyleTextDiv</button>
+     <button id="btn3" >Say Hello</button>
+
+     <script>
+        $('#btn1').click(function(){
+            $('textarea').addClass('border')
+        })
+        $('#btn2').click(function(){
+            $('#div1').text('this is first div').addClass('style')
+        })
+        $('#btn3').click(function(){
+            $('input').val('HELLO')
+            $('textarea').text('HELLO')
+        })
+     </script>
+
+    
+</body>
+</html>
