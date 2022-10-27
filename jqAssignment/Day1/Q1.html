@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
+
+    <!-- <script src="Q1.js"></script> -->
+</head>
+
+<body>
+    <input type="text" id="inp" placeholder="enter email"><br>
+    <br>
+    <button id="bt1">ShowE-mail</button>
+<div id="d">
+    
+</div>
+    <script>
+         $(function () {
+            $('#bt1').click(function () {
+                var v = $('#inp').val();
+                $('#d').text(v);
+            })
+        })
+                
+            
+        
+    </script>
+</body>
+
+</html>
